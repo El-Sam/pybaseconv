@@ -1,5 +1,7 @@
 # pybaseconv
 
+[![Build Status](https://travis-ci.com/El-Sam/pybaseconv.svg?branch=master)](https://travis-ci.com/El-Sam/pybaseconv)
+
 **pybaseconv** is a library that allows you to convert any large number (no fractions) from any base to any other base, thus freedom to choose source and/or destination bases.
 
 There are 5 predefined bases that are supported by **pybaseconv**, which are:
