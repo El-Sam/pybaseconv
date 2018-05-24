@@ -8,7 +8,7 @@ setup(
     version="0.0.1",
     author="Samira El Aabidi",
     author_email="sam.elaabidi@gmail.com",
-    keywords=["Swagger", "OpenAPI", "Kubernetes"],
+    keywords=["Python", "Base conversion", "Math"],
     description="This library allows you to convert "
                 "a number from any base to any base",
     long_description=long_description,

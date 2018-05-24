@@ -1,6 +1,9 @@
 # pybaseconv
 
 [![Build Status](https://travis-ci.com/El-Sam/pybaseconv.svg?branch=master)](https://travis-ci.com/El-Sam/pybaseconv)
+[![PyPI supported versions](https://img.shields.io/pypi/pyversions/pybaseconv.svg)](https://pypi.python.org/pypi/pybaseconv)
+[![PyPI version](https://badge.fury.io/py/pybaseconv.svg)](https://badge.fury.io/py/pybaseconv)
+
 
 **pybaseconv** is a library that allows you to convert any large number (no fractions) from any base to any other base, thus freedom to choose source and/or destination bases.
 
@@ -11,6 +14,16 @@ There are 5 predefined bases that are supported by **pybaseconv**, which are:
 * `OCT` : the octal base `"01234567"`.
 * `HEX` : the hexadecimal base `"0123456789abcdef"`.
 * `FLICKER_BASE_58` & `BITCOIN_BASE_58`: two variations of the **Base58** encoding, more info [here](https://en.wikipedia.org/wiki/Base58).
+
+
+## Installation
+
+**pybaseconv** requires Python >= 3.5 due to the usage of the type hints introduced in Python 3.5
+
+To install pybaseconv, simply:
+
+`pip install pybaseconv`
+
 
 ## Module usage
 
@@ -32,3 +45,4 @@ print(bin2dec_converter.convert('11112'))  # raises exception because 11112 is n
 ```
 
 *PS*: when using custom bases, make sure that the digits are sorted from smallest to the largest, in order to get the appropriate conversion.
+
